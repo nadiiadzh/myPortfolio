@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/9134a43a2c.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <a class="logo">ND</a>
+            <div class="toggle" onclick="toggleMenu()"></div>
+            <ul class="menu">
+                <li><a href="#home" onclick="toggleMenu()">Home</a></li>
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#services" onclick="toggleMenu()">Skills</a></li>
+                <li><a href="#work" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+                
+            </ul>
+        </header>
+        <section class="banner" id="home">
+            <div class="textBx">
+                <h2> Hi, my name is<br><span>Nadiia Dzhyhryniuk</span></h2>  
+                <h3>I am a  Full Stack Developer skilled with latest designing software
+                   & web development technologies like HTML, CSS,
+                    JavaScript, React.js, Node.js,et.
+                    I am passionate about building eye catching & highly
+                     performant web & software applications. </h3> 
+                <a href="#about"class="btn">About Me</a>              
+            </div>
+        </section>
+        
+        <section class="about" id="about">
+            <div class="heading">
+                <h2>About Me</h2>  
+            </div>
+            <div class="content">
+                <div class="contentBx w50">
+                    <h2> Hi! I am Nadia Dzhyhryniuk,
+                    </h2>  
+                    <p>I am a Toronto-based FULL Stack Developer. I have completed my graduation & post-graduation in Computer Science.
+                        I have experience working with the latest web technologies like HTML, CSS, JavaScript, 
+                        React JS, Node JS, Express JS. Apart from that, I am skilled in the latest designing tools like Adobe's Photoshop, Illustrator, XD.
+                        I have worked upon several projects for Web Designing, Video Commercials & Web Development and Software Development.
+                    </p>
+                    <a href="https://drive.google.com/file/d/1WNW6FlqCH3um6vhmESX-wSznHHy3-mzZ/view?usp=sharing"  target="blank" class="btn">View resume</a> 
+                </div>
+                <div class="w50">
+                    <img src="img/myphoto.jpg" class="img1">
+                </div>
+            </div>      
+        </section>
+
+        <section class="services" id="services">
+            <div class="heading white">
+                <h2 >My Skills</h2>
+            </div>
+            <div class="content">
+                <div class="serviceBx">
+                    <img src="img/icon1.png">
+                    <h2>Web Design</h2>
+                    <p>
+                        I can create an online presence for your business that captures the imagination,
+                        drives user behavior, and converts visitors into customers.
+                    </p>
+                </div>
+                <div class="serviceBx">
+                    <img src="img/icon2.png">
+                    <h2> Software Development</h2>
+                    <p>
+                        By using the latest trends in the software development, along with my innovative approach,
+                        I am capable of building an application that would work best for your unique brand.
+                    </p>
+                </div>
+                <div class="serviceBx">
+                    <img src="img/icon3.png">
+                    <h2>UI/UX Design</h2>
+                    <p>
+                        I am focusing on your user and their journey in order to challenge and solve for existing constraints.
+                    </p>
+                </div>
+                <div class="serviceBx">
+                    <img src="img/icon4.png">
+                    <h2>Illustration</h2>
+                    <p>
+                        I can design ads, flyers, banners, business cards, signs and more,
+                        helping hundreds of small business owners reach new customers. 
+                    </p>
+                </div>
+                <div class="serviceBx">
+                    <img src="img/icon5.png">
+                    <h2>Content Writing</h2>
+                    <p>
+                        I follow the latest updates to ensure your website is positioned on a very top. Various packages
+                        that I offer provide an opportunity to choose a suitable solution that is completely within your budget.
+                    </p>
+                </div>
+                <div class="serviceBx">
+                    <img src="img/icon6.png">
+                    <h2>Video Editing</h2>
+                    <p>
+                        I am ready to take your vision from early concepts to final production.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="work" id="work">
+            <div class="heading">
+                <h2>My Latest Works</h2>
+            </div>
+            <div class="content">
+                <div class="workBx">
+                    <p>Web Dezign and Development for the PUB restaurant using HTML, CSS and JavaScript technologies.</p>
+                    <img src="img/pr-1.png"> 
+                </div>
+                <div class="workBx">
+                    <p> Working with photos, videos and typography. A preloader for a dna  testing company using After Effects.</p>  
+                    <img src="img/dna.gif"> 
+                </div>
+                <div class="workBx">
+                    <p>UI/UX Design created for an online delivery food platform in Adobe XD.</p>
+                    <img src="img/pr-3.png"> 
+                </div>
+                <div class="workBx">
+                    <p>Creating photo/video social ads using Photoshop and Illustrator. </p>
+                    <img src="img/pr-2.png"> 
+                </div>
+            </div>
+        </section>
+        
+        <section class="contact" id="contact">
+            
+             <div class="content">
+                <div class="contactInfo">
+                    <h3>Contact Info</h3> 
+                    <div class="contactInfoBx">
+                        <div class="box">
+                            <div class="icon">
+                                <i class="fa fa-map-marker"></i>
+                            </div>
+                            <div class="text">
+                                <h3>Address</h3>
+                                <p>144 Tuscadero Cres,<br>Toronto,Ontario,<br>L4Z 3C2</p>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="icon">
+                                <i class="fa fa-phone"></i>
+                            </div>
+                            <div class="text">
+                                <h3>Phone</h3>
+                                <p>+1 647-884-0818</p>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="icon">
+                                <i class="fa fa-envelope-o"></i>
+                            </div>
+                            <div class="text">
+                                <h3>Email</h3>
+                                <p>nadiadzh7@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="formBx">
+                    <form>
+                        <h3>Contact Me</h3>
+                        <input type="text" name="" placeholder="Full Name">
+                        <input type="email" name="" placeholder="Email">
+                        <textarea placeholder="Your Message"></textarea>
+                        <input type="submit" value="Send">
+                    </form>
+                </div>
+            </div>
+        </section>
+        <div class="copyright">
+            <p>Copyright &copy 2022 Nadiia Dzhyhryniuk. All Rigth Reserved.</p>
+        </div>
+
+        
+                
+        <script  type="text/javascript">
+        window.addEventListener('scroll',function(){
+            var header = document.querySelector('header');
+            header.classList.toggle('sticky', window.scrollY>0 );
+        });
+        function toggleMenu(){
+            var menuToggle = document.querySelector('.toggle');
+            var menu = document.querySelector('.menu');
+            menuToggle.classList.toggle('active')
+            menu.classList.toggle('active')
+        } 
+       
+        </script>
+    </body>
+</html>
